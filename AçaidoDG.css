@@ -1,0 +1,48 @@
+body{
+  background: url("bgacai.webp");
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulo{
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.title{
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.barraSuperior{
+    display: flex;
+    border-bottom: 0.1rem solid white;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .login{
+    margin-right: 45px;
+    border: solid 1px white;
+    
+  }
+  i{
+    font-size: 20px;
+  }
+
+

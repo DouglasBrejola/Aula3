@@ -1,0 +1,106 @@
+/* analista configs */
+body{
+  background: url("bgacai.webp");
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.analistaDev {
+  text-align: center;
+
+  color: white;
+  background-position: center;
+}
+.eu {
+  width: 150px;
+  border-radius: 150px;
+  border: 5px solid #370b2c;
+  margin-top: 35px;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: white;
+}
+.identidade {
+  color: white;
+  background-color: rgba(90, 88, 88, 0.889);
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 1);
+  padding: 8px 18px;
+  width: 90px;
+  height: 35px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 35px;
+  margin: 5px;
+}
+.identidade:hover {
+  box-shadow: 4px 4px rgb(0, 0, 0);
+}
+.wpp {
+  width: 15px;
+}
+.lkd {
+  width: 15px;
+}
+.tabelaAC{
+  display: flex;
+  padding: 2px;
+  justify-content: center;
+  margin: auto;
+}
+.title{
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.produtos{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.barraSuperior{
+  display: flex;
+  border-bottom: 0.1rem solid white;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login{
+  margin-right: 45px;
+  border: solid 1px white; 
+}
+i{
+  font-size: 20px;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centro{
+  text-align: center;
+  justify-items: center;
+}
+.centroCU{
+  text-align: center;
+  color: white;
+}
+footer{
+  text-align: center;
+  color: white;
+}
